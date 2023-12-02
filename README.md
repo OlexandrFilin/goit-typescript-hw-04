@@ -151,3 +151,4 @@ export function FormComponent() {
 Описати тип PropsProvider: Опишіть правильний тип для дітей
 
 Описати тип PropsMenu: Опишіть тип для menus, він має бути від типу Menu
+

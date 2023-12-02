@@ -4,7 +4,7 @@ import React, {useReducer} from "react";
 type RequestStep = 'start' | 'pending' | 'finished' | 'idle';
 interface State  {
   isRequestInProgress: boolean;
-  requestStep: string;
+  requestStep: RequestStep;
 }
 const initialState: State = {
   isRequestInProgress: false,
